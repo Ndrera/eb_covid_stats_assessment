@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+	<div class="px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+		<h1 class="display-4">SOUTH AFRICA'S COVID-19 STATISTICS</h1>
+	</div>
+
+	<div class="card mb-5 shadow-lg">
+		<div class="card-body">
+			{{ render_chart(chart) }}
+		</div>
+	</div>
+
+
+
+
+{% endblock %}
